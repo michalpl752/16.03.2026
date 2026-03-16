@@ -1,0 +1,28 @@
+header {
+    height: auto;
+    background-color: aqua;
+    width: 98vw;
+
+}
+html {
+    padding: 0;
+    bottom: 0;
+}
+main {
+    display: flex;
+    width: 98vw;
+    height: 90vh;
+}
+#left, #right, #mid {
+    background-color: aqua;
+    width: 35%;
+    height: 100%;
+    /* border: 1px solid; */
+}
+footer {
+    background-color: aqua;
+    /* border: 1px solid; */
+    width: 98vw;
+    height: 25px;
+
+}
