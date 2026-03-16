@@ -18,7 +18,9 @@
 </head>
 <body>
     <header>
+        <nav>
         <h1>Ranking gier komputerowych</h1>
+</nav>
 </header>
 <main>
 <section id="left">
