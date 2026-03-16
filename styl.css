@@ -12,7 +12,7 @@ nav {
     width: 98vw;
 }
 main {
-    display: block;
+    display: flex;
     width: 98vw;
     /* height: 90vh; */
 }
@@ -34,9 +34,9 @@ main {
     height: 600px;
 }
 footer {
-    background-color: aqua;
+    background-color: indigo;
     width: 98vw;
-    height: 25px;
+    height: auto;
 
 }
 footer form {
@@ -50,6 +50,8 @@ ul li p {
 }
 li {
     padding: 5px;
+    display: flex;
+    
 }
 @media screen and (max-width: 800px) {
     #left, #right {
