@@ -48,10 +48,17 @@ ul li p {
     border-radius: 50%;
     padding: 5px;
 }
+#right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#right form {
+    width: 100px;
+}
 li {
     padding: 5px;
-    display: flex;
-    
+    display: flex;    
 }
 @media screen and (max-width: 800px) {
     #left, #right {

@@ -18,7 +18,7 @@ if (!$conn) {
     <link rel="stylesheet" href="styl.css">
 </head>
 <body>
-    <header>
+<header>
         <nav>
         <h1>Ranking gier komputerowych</h1>
 </nav>
@@ -40,15 +40,15 @@ if (!$conn) {
             <h3>Strone wykonał</h3>  
             <p>000000000000</p>
     </section>
-    <div id="mid">
+    <section id="mid">
         <?php
         $sql2 = "SELECT gry.id , gry.nazwa, gry.zdjecie FROM gry;";
         $query = mysqli_query($conn, $sql2);
         while ($row = mysqli_fetch_array($query)) {
-            echo "<img src='" . $row["zdjecie"] . " ' alt='" . $row["nazwa"] . " '" . "title='" . $row["id"] . " '";    
+            echo "<img src='" . $row["zdjecie"] . " ' alt='" . $row["nazwa"] . " '" . "title='" . $row["id"] . " '>";    
         }
         ?>
-    </div>  
+    </section>  
     <section id="right">
         <h3>Dodaj nową grę</h3> 
                     <form method="POST" action="#">
